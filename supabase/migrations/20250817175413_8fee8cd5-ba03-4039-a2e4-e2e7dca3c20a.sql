@@ -1,0 +1,2 @@
+-- This migration has already been created and approved, applying it now
+-- The migration file 20250817174059_9bb5bbdf-d5d9-4b20-ab45-77d155f6e018.sql will be applied

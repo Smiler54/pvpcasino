@@ -1,0 +1,55 @@
+project_id = "dvdydmknpgweohnwbpeg"
+
+[api]
+enabled = true
+port = 54321
+schemas = ["public", "graphql_public"]
+extra_search_path = ["public", "extensions"]
+max_rows = 1000
+
+[db]
+port = 54322
+
+[studio]
+enabled = true
+port = 54323
+
+[inbucket]
+enabled = true
+port = 54324
+
+[functions.complete-coinflip-match]
+verify_jwt = false
+
+[functions.jackpot-realtime-sync]
+verify_jwt = false
+
+[functions.jackpot-countdown-manager]
+verify_jwt = false
+
+[functions.check-jackpot-timer]
+verify_jwt = false
+
+[functions.jackpot-ensure-timer]
+verify_jwt = false
+
+[functions.jackpot-coordinator]
+verify_jwt = false
+
+[functions.verify-payment]
+verify_jwt = true
+
+[functions.purchase-credits]
+verify_jwt = true
+
+[functions.process-payout]
+verify_jwt = true
+
+[functions.create-express-account]
+verify_jwt = true
+
+[functions.jackpot-timer-sync]
+verify_jwt = false
+
+[functions.jackpot-realtime-manager]
+verify_jwt = false
